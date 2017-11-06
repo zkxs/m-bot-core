@@ -6,7 +6,7 @@ lazy val root = (project in file(".")).
       scalaVersion := "2.12.3"
     )),
     organization := "net.michaelripley",
-    name := "m-bot-core",
+    name := "m-bot-module-api",
     version := "0.1.0-SNAPSHOT",
     resolvers ++= extraResolvers,
     libraryDependencies ++= testLibraries,
