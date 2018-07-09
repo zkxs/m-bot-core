@@ -3,7 +3,7 @@ import sbt._
 object Dependencies {
 
   lazy val dependencies = Seq(
-    "net.dv8tion" % "JDA" % "3.3.1_295" % Provided
+    "net.dv8tion" % "JDA" % "3.6.0_354" % Provided
   )
 
   lazy val testLibraries: Seq[ModuleID] = Seq(
